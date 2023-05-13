@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:text="Vos paiement de remboursement"
+                    android:textColor="#01AE08"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:text="Paiement Hypothécaire mensuel (incluant assurance et taxes municipales et scolaires)"
+                    android:textSize="12dp" />
+
+                <EditText
+                    android:id="@+id/txtHypothecID"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="#72C3C5C3" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="$"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:text="Paiement mensuel d'un pret automobile"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/txtPretAutoID"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="#72C3C5C3" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="$"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:text="Paiement mensuel de vos pret personnels"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/txtPretPersoID"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="#72C3C5C3" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="$"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:text="Paiement mensuel du solde des cartes de credit"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/txtCarteCreditID"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="#72C3C5C3" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="$"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:text="Paiement mensuel d'un pret etudiant"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/txtPretEtudID"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="#72C3C5C3" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="$"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:text="Paiement mensuel de soutien aux enfants et pension alimentaire"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/txtSoutienEnfID"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="#72C3C5C3" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="$"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:text="Paiement mensuel divers 1(p.ex : chalet)"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/txtChaletID"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="#72C3C5C3" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="$"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:text="Paiement mensuel divers 1(p.ex : motocyclette)"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/txtMotoID"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="#72C3C5C3" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="$"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:text="Paiement mensuel divers 1(p.ex : electromenager)"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/txtElectromID"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="#72C3C5C3" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="$"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:paddingRight="7dp"
+                    android:text="Total des revenu mensuels"
+                    android:textColor="#FF5722"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/txtTotalRevMensID"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="#72C3C5C3" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="$"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="7dp">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:paddingRight="7dp"
+                    android:text="Total des paiement Mensuel pour rembourser des dettes"
+                    android:textColor="#FF5722"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/txtTotalPaieMensID"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="#72C3C5C3" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="$"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:paddingRight="7dp"
+                    android:text="Ratio d'endettement"
+                    android:textColor="#FF5722"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/txtRatioEndettID"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="#72C3C5C3" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="%"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnCalculID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:text="Calcul" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
